@@ -17,4 +17,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 
       </bean>
 
+      <bean id="loggingAspect"
+            class="com.library.aspect.LoggingAspect"/>
+
 </beans>
